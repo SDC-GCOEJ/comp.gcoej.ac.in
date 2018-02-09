@@ -2835,7 +2835,7 @@ article.page h1.page-title{
 	}
 	
 	/* Footer */
-	.footer .grid_4{display:none;}
+	.footer .grid_4{display:block;}
 	
 	.container_12 div.grid_6 div.grid_6{
 		width:48%;
@@ -2854,7 +2854,7 @@ article.page h1.page-title{
 		display:none!important;
 	}
 	.footer .grid_4{
-		display:none!important
+		display:block !important;
 	}
 	/* Slider */
 	#slider{
@@ -2901,7 +2901,7 @@ article.page h1.page-title{
 	/* Copyright Menu */
 	.copyright{border-top:4px solid #353535}
 	.copyright ul, .copyright{text-align:center!important;}
-	.footer{display:none;}
+	.footer{display:block;}
 	
 }
 
