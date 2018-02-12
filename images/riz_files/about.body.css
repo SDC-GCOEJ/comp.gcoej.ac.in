@@ -1,0 +1,203 @@
+span.blue{ color:rgb(23,122,166) }
+
+div.services-heading {
+    margin:0 auto;
+    padding-top:20px;
+    text-align:center;
+    background-color:#fff;
+    font-family:Raleway,Arial,Helvetica,sans-serif;
+}
+div.services-heading h1 {
+    padding-bottom:5px;
+    width:30%;
+    min-width:200px;
+    margin:0 auto;
+    border-bottom:2px solid rgb(23,122,166);
+    border-radius:10px;
+    text-transform:capitalize;
+    font-weight:bold;
+    font-size:25px;
+
+}
+div.services-heading h4 {   
+    padding-top:0px;
+    padding-bottom:20px;
+
+    text-transform:capitalize;
+    font-weight:bold;
+}
+
+div.about div.col-6 {
+    width:100%;
+    background: linear-gradient(to bottom , rgb(17,89,121),rgb(62,178,208));
+    color:#fff;
+    text-shadow:1px 1px 0px #000;
+    letter-spacing: 1px;
+    padding-top:1.5%;
+    padding-bottom:1.5%;
+}
+.big{font-size:1.3em;}
+
+div.about {
+    
+    font-family:Raleway,Arial,Helvetica,sans-serif;
+    
+    background-color:#fff;
+}
+
+div.about div.head {
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+}
+
+div.about div.head p {
+    font-size:20px;
+    
+}
+div.wrapper div.container div.head h2{
+    text-transform:capitalize;
+    font-weight:bold;
+
+}
+.objectives {
+    display:block;
+    padding-top:20px;
+}
+.objectives ul {
+    width:75%;
+    margin:0 auto;
+    margin-bottom:50px;
+}
+.objectives ul li {
+    font-size:20px;
+}
+div.container div.row {
+    margin:0 auto;
+}
+div.container div.button_row {
+    
+    width:50%;
+    float:left;
+    text-align:center;
+}
+button.button-about { 
+   background-color :rgb(23,122,166);
+    padding:6px 30px;
+    font-size:20px;
+    color:#fff;
+    border:1px solid #fff;
+}
+button.button-about:hover {
+    background-color:#fff;
+    color:rgb(23,122,166);
+    border:1px solid rgb(23,122,166);
+}
+
+
+
+/*styling div.about /*/
+@media screen and (max-width:700px) {
+    div.services-heading h1 {
+        font-size:20px;
+        width:80%;
+        min-width:150px;
+    }
+    div.services-heading h4 {   
+       font-size:15px;
+    }
+    div.about div.head p {
+        font-size:18px;
+    }
+
+    .objectives {
+        display:block;
+    }
+    .objectives ul {
+        width:75%;
+        margin:0 auto;
+    }
+    .objectives ul li {
+        font-size:15px;
+        padding:5px;
+    }
+    button.button-about {
+        margin-top:20px;
+        padding:7px 20px;
+        font-size:15px;
+    }
+}
+.text-left{
+    text-align: left;
+}
+div.wrapper-new{
+    width: 100%;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+.head-bgtint{
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 2, 3, 0.63);
+
+}
+.head-bgimg{
+    position: relative;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:cover;
+    background-image:url("../img/background_about.jpg   ");
+}
+h3.head-heading{
+    text-align: center;
+    width: 100%;
+    font-size: 4em;
+    font-weight: 400;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p.head-para{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1.2em;
+    transform: translate(-50%,-50%);
+    margin-top: 2em;
+    color:#aaa;
+}
+
+@media screen and (max-width:650px){
+    h3.head-heading{
+        font-size: 3em;
+    }
+
+    p.head-para {
+        font-size:0.1em;
+        left:50%;
+        margin-top:3em;
+    }
+}
+@media screen and (min-width:551px) and (max-width:999px){
+    h3.head-heading{
+        font-size: 3.5em;
+    }
+
+}
+
+@media screen and (max-width:750px) {
+
+    .navbar-collapse { 
+        padding:0px 50px;
+        background:rgba(0,0,0,0.75);
+    }
+    .navbar-collapse li {
+        width:250px
+    }
+}

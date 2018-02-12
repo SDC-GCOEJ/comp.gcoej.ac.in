@@ -1,0 +1,194 @@
+/*
+div.content {
+    width:100%;
+    height:auto;
+    background-color:#fff;
+    position:;
+    z-index:10;
+    text-align:center;
+    padding:0;
+    padding:100px; 
+    padding-top:50px;
+
+}
+div.content span{
+    text-align:center;
+    width:0%;
+    margin:0 auto;
+    font-size:30px;
+    border-bottom:2px solid #aaa;
+    margin-bottom:30px;
+}
+
+
+
+div.content section{ 
+    padding:10px;
+    padding-bottom:20px;
+    
+ } 
+ 
+@media screen and (max-width:700px) {
+   div.content h1.modules {
+        width:70%;
+    }
+
+
+}
+*/
+
+div.content {
+    z-index:10;
+    text-align:center;
+    padding:0;
+    background-image:url("../img/background_new.jpg");
+    background-attachment:fixed;
+}
+/* make it even darker */
+div.content div.background-dark-tint {
+    width:100%;
+    min-height:800px;
+    padding-top:40px;
+    background-color:#027eac75;
+    /* background-color:#00000075; */
+    padding-bottom:20px;
+    padding-left:80px;
+    padding-right:80px;
+
+}
+.background-dark-tint .content-header {
+    width:100%;
+    color:#fff;
+}
+.background-dark-tint .content-header h2 {
+    min-width:200px;
+    width:20%;
+    border-bottom:1px solid #fff;
+    margin:0 auto;
+    padding-bottom:20px;
+}
+.background-dark-tint .row {
+    padding-top:40px;
+}
+
+div.sdc-module-card {
+    height:140px;
+    margin:20px;
+    background-color:rgba(0, 0, 0, 0.4);
+    /* background-color:rgba(99, 100, 100, 0.479); */
+    -o-box-shadow: 0 35px 30px -30px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 35px 30px -30px rgba(0,0,0,0.6);
+    -webkit-box-shadow:0 35px 30px -30px rgba(0,0,0,0.6);
+    box-shadow: 0 35px 30px -30px rgba(0,0,0,0.6);
+    border-radius:8px;
+    transition-duration:0.35s;
+
+}
+div.sdc-module-card:hover {
+    -o-box-shadow:0 35px 30px -20px rgba(0,0,0,0.6); 
+    -moz-box-shadow:0 35px 30px -20px rgba(0,0,0,0.6); 
+    -webkit-box-shadow: 0 35px 30px -20px rgba(0,0,0,0.6); 
+    box-shadow: 0 35px 30px -20px rgba(0,0,0,0.6); 
+}
+.arrower:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 20%;
+    right:0px;
+    transition: 0.25s;
+    color:#fff;
+    font-size:50px;
+}
+.sdc-module-card:hover .arrower:after {
+    opacity:1;
+    right:20px;
+}
+
+.col-sm-3 {
+    width:30%;
+}
+
+
+
+
+.sdc-module-card .sdc-module-card-left {
+    width:30%;
+    float:left;
+    height:100%;
+}
+.sdc-module-card .sdc-module-card-left .sdc-module-icon {
+    position: relative;;
+    width:75%;
+    height:55%;
+    border-radius:50%;
+    background-color:#fff;
+    top:22.5%;
+    left:17.5%;
+    text-align:center;
+}
+.sdc-module-card .sdc-module-card-left .sdc-module-icon i {
+    font-size:40px;
+    position:relative;
+    display:block;
+    width:80%;
+    height:80%;
+    top:10%;
+    left:10%;
+    padding-top:10px;
+    color:#444;
+}
+.sdc-module-card .sdc-module-card-right {
+    width:70%;
+    float:right;
+    height:100%;
+    text-align:left;
+}
+
+.sdc-module-card .sdc-module-content {
+    padding:10px;
+    height:100%;
+}
+.sdc-module-card .sdc-module-content .sdc-module-content-title h2{
+    color:#fff;
+    font-size:20px;
+    margin-bottom:0px;
+}
+.sdc-module-card .sdc-module-content .sdc-module-content-title h3{
+    color:#aaa;
+    font-size:15px;
+    margin-top:15px;
+    width:100%;
+
+}
+
+
+/*
+    lets make it for small screens 
+    mobile css ask before changing anything aspraz2658@gmail.com
+
+
+*/
+@media screen and (max-width:700px) {
+   
+    div.content div.background-dark-tint {
+        padding-left:30px;
+    }
+    div.background-dark-tint .content-header h2 {
+        font-size:20px;
+        padding-bottom:15px;
+        width:150px;
+        margin:0 auto;
+        position:absolute;
+        left:30%;        
+        text-align: center;
+    }
+    div.sdc-module-card {
+        margin-top:25px;
+    }
+    .col-sm-3 {
+        width:100%;
+    }
+
+
+}

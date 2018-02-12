@@ -1,0 +1,106 @@
+div.strip {
+    width:100%;
+    background-color:#fff;
+    color:#000;
+}
+div.strip div.row {
+    height:100%;
+    padding:20px 50px;
+}
+div.strip div.row div {
+    height:120px;
+}
+.sdc-card {
+    width:100%;
+    border-right :1px solid #aaa;
+    
+}
+.sdc-card-no-right-border{
+    border-right:none;
+}
+.sdc-card-left {    
+    text-align:center;
+    width:30%;
+    float:left;
+    padding:25px 25px 25px 0px ;
+    background-color:#222;
+    /* box-shadow:0px 1px 5px -2px #000; */
+    border-radius:0px;
+    
+}
+.sdc-card-left i {
+    font-size:60px;
+    color:#fff;
+    
+}
+.sdc-card-right {
+    width:70%;
+    float:left;
+    text-align:center;
+    padding:6px;
+}
+.sdc-card-right p {
+    font-size:1.5em;
+    vertical-align:middle;
+}
+
+
+.sdc-card-left-orange {
+    background-color:#d88c12;
+}
+.sdc-card-left-red {
+    background-color:#c73b2b;
+}
+.sdc-card-left-voilet {
+    background-color:#8437a5;
+}
+.sdc-card-left-green {
+    background-color:#229753;
+}
+
+
+
+/* unlock for color all separation boxes black 
+*/
+.sdc-card-left {
+    background-color:#fff;
+}
+
+/* ICONS     COLORS    
+    unlock to color icons
+*/
+i.orange {
+    color:#d88c12;
+}
+i.red {
+    color:#c73b2b;
+}
+i.voilet {
+    color:#8437a5;
+    color:#444;
+}
+
+i.green {
+    color:#229753;
+}
+
+
+
+@media screen and (max-width:800px) {
+    div.sdc-card {
+        border-right:none;
+        border-bottom:1px solid #aaa;
+    }
+    div.sdc-card i.fa {
+        font-size:40px
+    }
+    div.sdc-card-left {    
+        padding:30px 30px 0px 20px ;
+        border-bottom:1px solid #aaa;
+    }
+    div.sdc-card-no-right-border {
+        border-bottom:none;
+    }
+}
+
+

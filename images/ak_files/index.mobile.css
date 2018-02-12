@@ -1,0 +1,19 @@
+@media screen and (max-width:700px) {
+    .card-grid .block {
+        min-width:200px;
+        margin-left:-15px;
+    }
+    div.content span.mobile-header {
+        font-size:25px;
+    }
+    body div.coding-quote p {
+        width:90%;
+        font-size:1.2em;
+    }
+
+    #button_mobile {
+     
+        padding:10px 15px;
+        font-size:16px;
+    }
+}
